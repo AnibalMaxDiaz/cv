@@ -1,0 +1,9 @@
+body{
+    background-image: url(/assets/images/fondo_2_grande.png);
+}
+.cards{
+    width: 22%;
+}
+.cards img{
+    width: 100%;
+}
