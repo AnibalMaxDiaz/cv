@@ -16,8 +16,13 @@
 	backdrop-filter: blur(0.6rem);
 }
 
+#email{
+	color: gray;
+	margin: auto;
+	margin-right: 10px;
+	user-select: none;
 
-/* .............PRUEBA DE SUMMARY............... */
+}
 
 .summary{
 	display: flex;
