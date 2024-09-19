@@ -27,30 +27,32 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">Home</a>
+							<a class="nav-link active" aria-current="page" href="#home">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">About me</a>
+							<a class="nav-link" href="#about-me">About me</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
 								aria-expanded="false">
-								Achievements
+								Titles and others
 							</a>
 							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="#">Degrees</a></li>
+								<li><a class="dropdown-item" href="#degrees">Degrees</a></li>
+								<li><a class="dropdown-item" href="#achievements">Achievements</a></li>
 								<li><a class="dropdown-item" href="#">Projects</a></li>
 								<li>
 									<hr class="dropdown-divider">
 								</li>
-								<li><a class="dropdown-item" href="#">Certificates</a></li>
-								<li><a class="dropdown-item" href="#"><img src="./assets/images/QR/qr-certificates.png"
+								<li><a class="dropdown-item" href="#">Certificates<span>Escanea el codigo QR</span> </a></li>
+								<li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1-iFWRTUBjnjzJTXX_yhU7_SJnqsWmK1A?usp=sharing"><img src="./assets/images/QR/qr-certificates.png"
 											alt="QR Certificates" width="80px"></a></li>
 							</ul>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#">Contact me</a>
 						</li>
+					<button class="btn btn-outline-success"><a href="https://drive.google.com/drive/folders/18wQlsd17UnFYKpGYZtqGmbHtd1_JO0MA?usp=drive_link" target="_blank">Download My CV</a></button>
 					</ul>
 					<form class="d-flex" role="search">
 						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -60,12 +62,12 @@
 			</div>
 		</nav>
 
-		<main class="mainContainer">
+		<main id="home" class="mainContainer">
+			<h2 class="title">About me</h2>
 			<section class="summary">
-				<div class="about-me">
-					<h2 class="title">About me</h2>
-					<p class="p1">Welcome to my Web Page, here you can learn more about me.</p>
-					<p class="p2">
+				<div id="about-me" class="about-me">
+					<p class="pi p1">Welcome to my Web Page, here you can learn more about me.</p>
+					<p class="pi p2">
 						My name is <strong><em>Aníbal</em></strong>, I was born in Bogotá. I am a <em>systems engineer,
 							Telecommunications technologist and web developer</em>, I love technology and sports
 						and travel with my family and friends. I'd love to learn more about <strong><em>IA</em></strong> to be able
@@ -74,23 +76,20 @@
 					</p>
 				</div>
 				<div class="about-image">
-					<img src="./assets/images/perfil_1_5_der_gif.gif" alt="profile photo" class="perfil" width="170px"
-						height="170px">
+					<img src="./assets/images/perfil_1_5_der_gif.gif" alt="profile photo" class="perfil">
 				</div>
 			</section>
 			<hr>
 			<br>
 			<section class="education">
-				<h1 class="title">Degrees</h1>
+				<h1 id="degrees" class="title">Degrees</h1>
 				<div class="ct-cont">
 					<div class="ct card1E">
 						<img src="./assets/images/degrees/titulo-ingeniero-max.jpg" width="200px" height="280px"/>
 						<div class="c-conte">
 							<h3 class="c-t">Titulo</h3>
 							<p class="c-p">
-								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
-								cumque ut suscipit deserunt unde voluptatem dolor eos, ducimus
-								aliquam animius, sunt.
+								Earning my degree as a systems engineer has been a transformative milestone in my life. It has provided me with advanced technical skills, an analytical mindset and the ability to solve complex problems, enhancing my confidence and personal satisfaction.
 							</p>
 							<a class="learn-more" href="#">Learn More...</a>
 						</div>
@@ -100,24 +99,20 @@
 						<div class="c-conte">
 							<h3 class="c-t">Web Designer</h3>
 							<p class="c-p">
-								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
-								cumque ut suscipit deserunt unde voluptatem dolor eos, ducimus
-								aliquam animius, sunt.
+								Obtaining my degree as a telecommunications technologist has been another step towards understanding how networks, interconnections and everything that entails them. It has given me practical and logical skills that allow me to be much more assertive when analyzing complex situations and being able to solve them.
 							</p>
 							<a class="learn-more" href="#">Learn More...</a>
 						</div>
 					</div>
 				</div>
-				<h1 class="title">Achievements</h1>
+				<h1 id="achievements" class="title achievements">Achievements</h1>
 				<div class="c-cont">		
 					<div class="c card3E">
 						<img src="./assets/images/degrees/20-Coursera Introduccion al Back-End.jpg" width="200px" width="280" />
 						<div class="c-conte">
 							<h3 class="c-t">Titulo</h3>
 							<p class="c-p">
-								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
-								cumque ut suscipit deserunt unde voluptatem dolor eos, ducimus
-								aliquam animius, sunt.
+								Earning my Meta certification as a backend developer allowed me to master Python, Git, and gitHub. I learned how to create web pg, and how to implement version control, which prepared me for real challenges in web development.
 							</p>
 							<a class="learn-more href="#">Learn More...</a>
 						</div>
@@ -127,9 +122,7 @@
 						<div class="c-conte">
 							<h3 class="c-t">Titulo</h3>
 							<p class="c-p">
-								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
-								cumque ut suscipit deserunt unde voluptatem dolor eos, ducimus
-								aliquam animius, sunt.
+								By earning my diploma in Java, I learned how to develop code efficiently and apply object-oriented programming principles, which has significantly improved my technical skills and ability to develop programs.
 							</p>
 							<a class="learn-more" href="#">Learn More...</a>
 						</div>
@@ -139,9 +132,7 @@
 						<div class="c-conte">
 						<h3 class="c-t">Titulo</h3>
 						<p class="c-p">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
-							cumque ut suscipit deserunt unde voluptatem dolor eos, ducimus
-							aliquam animis, sunt.
+							Earning my Python Essentials certificate allowed me to master key programming concepts such as data structures, flow control, and functions. Now, I can develop efficient scripts and solve complex problems with greater confidence and skill.
 						</p>
 						<a class="learn-more" href="#">Learn More...</a>
 					</div>
@@ -151,9 +142,7 @@
 					<div class="c-conte">
 					<h3 class="c-t">Titulo</h3>
 					<p class="c-p">
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
-						cumque ut suscipit deserunt unde voluptatem dolor eos, ducimus
-						aliquam animi, sunt.
+						By earning my AI-050 certificate, I learned how to implement natural language processing solutions using OpenAI models on Azure, improving my skills in artificial intelligence and expanding my knowledge in cognitive services and machine learning.
 					</p>
 					<a class="learn-more" href="#">Learn More...</a>
 				</div>
@@ -163,9 +152,7 @@
 				<div class="c-conte">
 					<h3 class="c-t">Titulo</h3>
 					<p class="c-p">
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
-						cumque ut suscipit deserunt unde voluptatem dolor eos, ducimus
-						aliquam animi, sunt.
+						Obtaining my certificate in cloud computing allowed me to master the management of cloud services, optimize resources and secure data. I learned to implement scalable and efficient solutions, improving my ability to innovate in technological projects.
 					</p>
 					<a class="learn-more" href="#">Learn More...</a>
 				</div>
@@ -175,9 +162,7 @@
 				<div class="c-conte">
 					<h3 class="c-t">Titulo</h3>
 					<p class="c-p">
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
-						cumque ut suscipit deserunt unde voluptatem dolor eos, ducimus
-						aliquam animi, sunt.
+						Earning my certificate taught me how to solve problems and make decisions effectively, improving my analytical and strategic skills. Now, I can tackle complex challenges with confidence and find innovative solutions quickly.
 					</p>
 					<a class="learn-more" href="#">Learn More...</a>
 				</div>
@@ -191,16 +176,14 @@
 			<br>
 
 			<section class="projects">
-				<h1 class="title">Projects</h1>
+				<h1 id="projects" class="title">Projects</h1>
 				<div class="c-cont">
 					<div class="c card1">
 						<img src="./assets/images/cvProject.PNG" width="200px" width="280" />
 						<div class="c-conte">
 							<h3 class="c-t">Titulo</h3>
 							<p class="c-p">
-								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
-								cumque ut suscipit deserunt unde voluptatem dolor eos, ducimus
-								aliquam animius, sunt.
+								In this first attempt, I wanted to create my web portfolio, with the goal of showing my achievements and skills, which I implement in an orderly and creative way using some of the tools I know, such as HTML, JavaScript, CSS, Git and Github, to achieve this result.
 							</p>
 							<a class="learn-more" href="#">Learn More...</a>
 						</div>
@@ -210,9 +193,7 @@
 						<div class="c-conte">
 							<h3 class="c-t">Titulo</h3>
 							<p class="c-p">
-								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
-								cumque ut suscipit deserunt unde voluptatem dolor eos, ducimus
-								aliquam animius, sunt.
+								In this project "Max Movies", I wanted to show a web page to watch movies, where I managed to show in an intuitive and elegant way the options of the titles to see divided by sections and with interaction in the necessary parts.
 							</p>
 							<a class="learn-more" href="#">Learn More...</a>
 						</div>
@@ -222,14 +203,12 @@
 						<div class="c-conte">
 							<h3 class="c-t">Titulo</h3>
 							<p class="c-p">
-								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
-								cumque ut suscipit deserunt unde voluptatem dolor eos, ducimus
-								aliquam animius, sunt.
+								This unit conversion project is very simple, but I have a lot of appreciation for it, because I was able to clarify and solve some doubts that were very relevant to the topic of programming in JavaScript.
 							</p>
 							<a class="learn-more" href="#">Learn More...</a>
 						</div>
 					</div>
-					<div class="c card4">
+					<div id="card4" class="c card4">
 						<img
 							src="https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=300" />
 						<div class="c-conte">
@@ -244,7 +223,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="skills">
+			<section id="skills" class="skills">
 				<h2 class="title">Skills</h2>
 				<ul>
 					<li>Semantic HTML</li>
@@ -271,17 +250,20 @@
 					<li>Graphs And Diagrams</li>
 				</ul>
 			</section>
-			<section class="contact" align="center">
-				<h1 class="madia title">Contact me</h1>
-				<a class="github" href="https://bit.ly/ingeniero_Max">GitHub <img src="./assets/images/icons/icons8-github-94.png" alt=""></a>
-				<a class="whatsapp" href="https://bit.ly/ingeniero_Max">Whatsapp <img src="./assets/images/icons/iconWhatsapp.png"
-						alt="Whatsapp"></a>
-				<a class="facebook" href="https://www.facebook.com/jesusanibal.maxdiaz/">Facebook <img src="./assets/images/icons/iconFace.png"
-					alt="Facebook"></a>
-				<a class="linkedin" href="https://www.linkedin.com/in/jesus-an%C3%ADbal-max-d%C3%ADaz-024326270/">LinkedIn <img
-					src="./assets/images/icons/Icon_In.png" alt="LinkedIn"></a>
-				<a class="instagram" href="https://www.instagram.com/jesusanibalmaxdiaz/">Instagram <img
-						src="./assets/images/icons/iconInstagram.png" alt="Instagram"></a>
+			<section id="contact" class="contact" align="center">
+				<h1 class="title">Contact me<br><button class="btn btn-outline-success"><a href="https://drive.google.com/drive/folders/18wQlsd17UnFYKpGYZtqGmbHtd1_JO0MA?usp=drive_link" target="_blank">Download My CV</a></button></h1>
+				<div class="media-contact">
+					<a class="github class="media" href="https://github.com/AnibalMaxDiaz" target="_blank">GitHub <img src="./assets/images/icons/icons8-github-94.png" alt=""></a>
+					<a class="whatsapp class="media" href="https://bit.ly/ingeniero_Max" target="_blank">Whatsapp <img src="./assets/images/icons/iconWhatsapp.png"
+							alt="Whatsapp"></a>
+					<a class="facebook class="media" href="https://www.facebook.com/jes class="mediausanibal.maxdiaz/" target="_blank">Facebook <img src="./assets/images/icons/iconFace.png"
+						alt="Facebook"></a>
+					<a class="linkedin class="media" href="https://www.linkedin.com/in/jesus-an%C3%ADbal-max-d%C3%ADaz-024326270/" target="_blank">LinkedIn <img
+						src="./assets/images/icons/Icon_In.png" alt="LinkedIn"></a>
+					<a class="instagram class="media" href="https://www.instagram.com/jesusanibalmaxdiaz/" target="_blank">Instagram <img
+							src="./assets/images/icons/iconInstagram.png" alt="Instagram"></a>
+				</div>
+				<!-- <h1 class="prueba">+Develop</h1> -->
 			</section>
 		</main>
 		
