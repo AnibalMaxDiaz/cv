@@ -155,6 +155,44 @@ justify-content: space-evenly;
 	transform: translateY(-3%);
 }
 
+/* Carousel......................................................*/
+
+
+.galery{
+	display: flex;
+	margin: 20px auto;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-size: contain;
+	}
+	
+	.space{
+		
+		margin: auto 0;
+		width: 400px;
+		height: 400px;
+		background-color: #d3d9ed00;
+		backdrop-filter: blur(0.8rem);
+		border-radius: 6px;
+		border: 3px solid rgba(30, 20, 223, 0.905);
+		color: rgb(155, 11, 168);
+		
+	}
+
+	
+
+
+
+		
+	
+	/* .space2{
+		object-fit: cover;
+	} */
+
+
+/* Carousel...................................................... */
+
+
 .c-t{
 	text-align: center;
 }
@@ -270,6 +308,11 @@ footer {
 	color: gold;
 }
 
+@media (max-width: 800px){
+	.space2{
+		display: none;
+	}
+}
 
 @media (max-width: 768px){
 
