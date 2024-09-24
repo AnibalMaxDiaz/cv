@@ -12,6 +12,8 @@
 }
 
 .title{
+	font-family: "Architects Daughter", cursive;
+
 	font-weight: bolder;
 	text-align: center;
 	backdrop-filter: blur(0.6rem);
@@ -22,7 +24,7 @@
 	margin: auto;
 	margin-right: 10px;
 	user-select: none;
-
+	font-size: 1.2em;
 }
 
 .summary{
@@ -183,16 +185,10 @@ justify-content: space-evenly;
 		background-color: rgba(23, 138, 138, 0.178);
 	}
 
-		
-	
-	/* .space2{
-		object-fit: cover;
-	} */
-
-
-/* Carousel...................................................... */
-
-
+#avatars{
+	display: flex;
+	justify-content: center;
+}
 
 
 
@@ -232,6 +228,27 @@ a{
 .c img {
 	width: 100%;
 }
+
+#download2{
+	font-weight: bold;
+}
+
+/* .................................form................................... */
+
+form{
+	backdrop-filter: blur(2.2rem);
+}
+#submit{
+	font-weight: bold;
+}
+.form{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	backdrop-filter: blur(0.2rem);
+
+}
+/* ......................................form....................................... */
 
 
 .contact{
@@ -334,16 +351,6 @@ footer{
 	font-size: 1em;
 }
 
-/* .summary{
-	flex-direction: column;
-	width: 100%;
-}
-
-.about-me{
-	text-align: center;
-	width: 70%;
-	line-height: 1;
-} */
 
 @media (max-width: 740px){
 

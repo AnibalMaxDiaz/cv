@@ -8,3 +8,7 @@ function copy(){
 }
 document.getElementById("skills").style.display = "none";
 
+// form
+
+
+
