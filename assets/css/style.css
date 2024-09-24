@@ -166,22 +166,22 @@ justify-content: space-evenly;
 	background-size: contain;
 	}
 	
-	.space{
-		
-		margin: auto 0;
-		width: 400px;
-		height: 400px;
-		background-color: #d3d9ed00;
-		backdrop-filter: blur(0.8rem);
-		border-radius: 6px;
-		border: 3px solid rgba(30, 20, 223, 0.905);
-		color: rgb(155, 11, 168);
-		
-	}
-
+.space{
 	
+	margin: auto 0;
+	width: 400px;
+	height: 400px;
+	background-color: #d3d9ed00;
+	backdrop-filter: blur(0.8rem);
+	color: rgb(155, 11, 168);
+	
+}
 
-
+	.container-pic{
+		width: 400px;
+		backdrop-filter: blur(0.2rem);
+		background-color: rgba(23, 138, 138, 0.178);
+	}
 
 		
 	

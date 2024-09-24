@@ -6,3 +6,5 @@ let button = document.getElementById("copy-button")
 function copy(){
   navigator.clipboard.writeText(email)
 }
+document.getElementById("skills").style.display = "none";
+
